@@ -9,10 +9,10 @@ def main_menu():
     print(
         "   .::XL - Direct Purchase Package::." +
         "\nPlease choose the menu you want to start:"
-        "\n[1] Purchase Package" + 
-        "\n[2] Request OTP Code" +
-        "\n[3] Request Password"  +
-        "\n[0] Quit"
+        "\n[1] Beli paketnya di sini" + 
+        "\n[2] Minta OTP kode nya" +
+        "\n[3] Minta paswwordnya  +
+        "\n[0] Keluar"
     )
     choice = str(input(" >> "))
     exec_menu(choice)
